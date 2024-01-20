@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -10,8 +7,8 @@ root.render(
     {/* onclick send {"1": "2"} to backend(localhost:4000) */}
     <button
       onClick={() =>
-        fetch("http://localhost:4000", {
-          method: "GET",
+        fetch("http://localhost:4000/testAPI/", {
+          method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
