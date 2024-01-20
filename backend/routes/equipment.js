@@ -8,7 +8,7 @@ router.get('/',(req,res)=>{
     csvtojson()
   .fromFile(filePath)
   .then((jsonArray) => {
-    console.log('JSON Data:', jsonArray);
+    // console.log('JSON Data:', jsonArray);
     res.status(200).json(jsonArray);
   })
   .catch((error) => {

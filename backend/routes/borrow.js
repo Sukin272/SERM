@@ -8,12 +8,14 @@ const filePath2='currently_issued.csv';
 
 function checkIfTaken(rollno)
 {
+    var flag=0;
     csvtojson()
   .fromFile(filePath2)
   .then((jsonArray) => {
-    console.log('JSON Data:', jsonArray);
-    var flag=0
+    // console.log('JSON Data:', jsonArray);
+    flag=0
     for(const key in jsonArray){
+        console.log(jsonArray[key]);
         if(jsonArray.hasOwnProperty(key) && key=='rollno')
         {
             if(jsonArray[key]==rollno)
@@ -23,8 +25,8 @@ function checkIfTaken(rollno)
             }
         }
     }
+})
     return flag;
-  })
 }
 
 function checkAvail(item)
@@ -32,7 +34,7 @@ function checkAvail(item)
     csvtojson()
   .fromFile(filePath1)
   .then((jsonArray) => {
-    console.log('JSON Data:', jsonArray);
+    // console.log('JSON Data:', jsonArray);
     var flag=0
     for(const key in jsonArray){
         if(flag==0){
@@ -87,11 +89,12 @@ function updateDatabase(item)
                 }
             })
 }
-router.get('/',(req,res)=>{
+router.post('/',(req,res)=>{
     const roll=req.body.rollno;
+    // console.log(roll);
     const email=req.body.email;
-    const taken=checkIfTaken(roll);
-    // console.log(taken);
+    const taken= checkIfTaken(roll);
+    console.log('----------------------------------');
     if(taken==0) // if not issued with same roll no prev
     {
         var response1={};

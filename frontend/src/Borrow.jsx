@@ -40,7 +40,7 @@ function Borrow() {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  let [items, setitems] = useState([]);
+  let [items, setitems] = useState(['choose']);
   useEffect(() => {
     fetch("http://localhost:4000/equipment")
       .then((response) => response.json())
