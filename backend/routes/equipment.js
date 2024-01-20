@@ -9,7 +9,7 @@ router.get('/',(req,res)=>{
   .fromFile(filePath)
   .then((jsonArray) => {
     console.log('JSON Data:', jsonArray);
-    res.json(jsonArray);
+    res.status(200).json(jsonArray);
   })
   .catch((error) => {
     console.error('Error:', error);
