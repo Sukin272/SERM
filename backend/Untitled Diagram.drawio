@@ -1,44 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T09:44:05.895Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="kM7IQhcexdyR-QUlWTGa" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T09:58:56.494Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="p3e36V7M9hXMMNAT7IwO" version="23.1.5" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="1259" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1259" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;u&gt;Type of Service&lt;/u&gt; --&amp;gt;&lt;br&gt;&lt;br&gt;1. Investor&lt;br&gt;2. Startup&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;--&amp;gt;&lt;br&gt;&lt;br&gt;1. Investor&lt;br&gt;2. Startup&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="80" y="100" width="200" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;u&gt;How do you want to register&lt;/u&gt;&amp;nbsp;--&amp;gt;&lt;br&gt;&lt;br&gt;1. Google&lt;br&gt;2. Outlook&lt;br&gt;3. Custom&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-2" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;u&gt;How do you want to register&lt;/u&gt;&amp;nbsp;--&amp;gt;&lt;br&gt;&lt;br&gt;1. Google&lt;br&gt;2. Outlook&lt;br&gt;3. Custom&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="540" y="90" width="240" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-3" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-3" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;fillColor=default;strokeWidth=4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="165" as="sourcePoint" />
             <mxPoint x="519" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;If Custom&lt;/u&gt;&amp;nbsp;--&amp;gt;&lt;br&gt;&lt;br&gt;- Enter Email&lt;br&gt;- Create Password&lt;br&gt;- Enter OTP&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="340" width="190" height="110" as="geometry" />
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-4" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;If Custom&lt;/u&gt;&amp;nbsp;--&amp;gt;&lt;br&gt;&lt;br&gt;- Enter Email&lt;br&gt;- Create Password&lt;br&gt;- Enter OTP&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="620" y="400" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;u&gt;For Investors&lt;/u&gt;&amp;nbsp;&lt;/b&gt;&lt;b&gt;--&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;- Enter full name&lt;br&gt;- Organization&amp;nbsp;&lt;br&gt;- Organization Type&lt;br&gt;- Phone No.&lt;br&gt;- Current Deals (image below)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="350" width="250" height="150" as="geometry" />
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-6" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;u&gt;For Investors&lt;/u&gt;&amp;nbsp;&lt;/b&gt;&lt;b&gt;--&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;- Enter full name&lt;br&gt;- Organization&amp;nbsp;&lt;br&gt;- Organization Type&lt;br&gt;- Phone No.&lt;br&gt;- Current Deals (image below)&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;u&gt;For&amp;nbsp;Startups&lt;/u&gt;&amp;nbsp;--&amp;gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;- Redirect to login page&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;- Profile Creation&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#182E3E;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="70" y="350" width="250" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-7" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-7" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;strokeWidth=4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="250" as="sourcePoint" />
-            <mxPoint x="680" y="330" as="targetPoint" />
+            <mxPoint x="680" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-8" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;" edge="1" parent="1">
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-8" value="" style="endArrow=classic;html=1;rounded=0;shape=flexArrow;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;strokeWidth=4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="600" y="410" as="sourcePoint" />
-            <mxPoint x="350" y="410" as="targetPoint" />
+            <mxPoint x="580" y="455" as="sourcePoint" />
+            <mxPoint x="350" y="454.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_HJAD7edLMh_66ZMUCXB-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;fontColor=default;strokeColor=#23445D;strokeWidth=4;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="530" y="230" as="sourcePoint" />
             <mxPoint x="350" y="370" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-10" value="&lt;font color=&quot;#151313&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;If not custom&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-40;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="380" y="256.79" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_HJAD7edLMh_66ZMUCXB-11" value="&lt;font color=&quot;#282525&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;If custom&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="700" y="290" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
